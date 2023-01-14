@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi CV Online</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <img src="./images/logo.png" width="110" alt="Logo" />
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="/">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="button">Descargar CV</button>
+        </header>
+    </div>
+
+    <form action="" method="POST" class="form">
+        <div class="form-content">
+            <h2 class="title">Hablemos</h2>
+            <p>Disfruto de los desafíos constantes para demostrar mi iniciativa y aportar ideas innovadoras.
+            </p>
+            <p>Estoy disponible para discutir cómo puedo ayudarte a alcanzar tus objetivos y me encantaría escucharte.
+            </p>
+            <label for="form-name">
+                Nombre completo
+                <input required name="name" id="form-name" type="text" placeholder="Mari">
+            </label>
+            <label for="form-email">
+                Correo electrónico
+                <input required name="email" id="form-email" type="email" placeholder="mari@gmail.com">
+            </label>
+            <label for="form-message">
+                Mensaje
+                <textarea required name="message" placeholder="Escribe la consulta..." id="form-message" cols="50"
+                    rows="10"></textarea>
+            </label>
+            <button class="button" type="submit">Enviar mensaje</button>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <p>© 2023 Nicolás Bobb 🇦🇷</p>
+    </footer>
+
+</body>
+
+</html>

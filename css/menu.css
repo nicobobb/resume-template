@@ -1,0 +1,21 @@
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: var(--white);
+    font: var(--button);  
+}
+
+.menu ul a.is-active {
+    color: var(--green);
+}
+
+@media screen and (max-width: 768px){
+    .menu {
+        display: none;
+    }
+}
