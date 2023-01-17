@@ -13,9 +13,3 @@
 .menu ul a.is-active {
     color: var(--green);
 }
-
-@media screen and (max-width: 768px){
-    .menu {
-        display: none;
-    }
-}

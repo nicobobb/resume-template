@@ -13,12 +13,11 @@
     <div class="wrapper">
 
         <header class="header">
-            <img src="./images/logo.png" width="110" alt="Logo" />
+            <a href="/resume-template">
+                <img src="./images/logo.png" width="110" alt="Logo" />
+            </a>
             <nav class="menu">
                 <ul>
-                    <li>
-                        <a href="/resume-template">Inicio</a>
-                    </li>
                     <li>
                         <a href="/resume-template/contacto.html">Contacto</a>
                     </li>
@@ -28,7 +27,7 @@
         </header>
     </div>
 
-    <form action="" method="POST" class="form">
+    <form id="form" action="" method="POST" class="form">
         <div class="form-content">
             <h2 class="title">Hablemos</h2>
             <p>Disfruto de los desafíos constantes para demostrar mi iniciativa y aportar ideas innovadoras.
@@ -37,25 +36,25 @@
             </p>
             <label for="form-name">
                 Nombre completo
-                <input required name="name" id="form-name" type="text" placeholder="Mari">
+                <input name="name" id="form-name" type="text">
             </label>
             <label for="form-email">
                 Correo electrónico
-                <input required name="email" id="form-email" type="email" placeholder="mari@gmail.com">
+                <input name="email" id="form-email" type="email">
             </label>
             <label for="form-message">
                 Mensaje
-                <textarea required name="message" placeholder="Escribe la consulta..." id="form-message" cols="50"
-                    rows="10"></textarea>
+                <textarea name="message" id="form-message" cols="50" rows="10"></textarea>
             </label>
             <button class="button" type="submit">Enviar mensaje</button>
+            <p class="warnings" id="warnings"></p>
         </div>
     </form>
 
     <footer class="footer">
         <p>© 2023 Nicolás Bobb 🇦🇷</p>
     </footer>
-
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
