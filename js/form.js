@@ -11,11 +11,11 @@ form.addEventListener("submit", (e) => {
   let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
   msj.innerHTML = "";
   if (nombre.value.length < 6) {
-    warnings += `El nombre no es valido <br>`;
+    warnings += `El nombre no es válido <br>`;
     enviar = true;
   }
   if (!regexEmail.test(email.value)) {
-    warnings += `El email no es valido <br>`;
+    warnings += `El email no es válido <br>`;
     enviar = true;
   }
   if (message.value.length < 8) {

@@ -35,3 +35,9 @@
       text-align: center;
     }
   }
+
+  @media screen and (max-width: 640px) {
+    .project-image {
+      margin-block-end: 30px;
+    }
+  }
